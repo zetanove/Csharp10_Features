@@ -14,4 +14,8 @@ public record Figlia(string Name) : Persona(Name)
 {
 }
 
-//static abstract interface
+//static abstract interface (preview)
+//interface IntStat
+//{
+//    static abstract int Prop { get; }
+//}
