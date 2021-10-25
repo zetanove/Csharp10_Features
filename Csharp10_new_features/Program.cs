@@ -24,7 +24,13 @@ public class Program
         Child t = new Child("child");
         Console.WriteLine(t.ToString());
 
-        Point pt1=new Point() { X = 1, Y = 2 };
+        /** mixed deconstruction **/
+        int y;
+        (int x, y) = (1, 2);
+        Console.WriteLine($"{x} {y}");
+
+
+        Point pt1 =new Point() { X = 1, Y = 2 };
         
 
     }
